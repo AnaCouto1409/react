@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<head>
+  <title>{projeto}</title>
+  <meta charset="utf-8">
+  <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+    name='viewport'>
+  <meta content='' property='og:image'>
+  <meta
+    content=' capacitação profissional urgente'
+    property='og:description'>
+  <meta content='https://reprograma.com.br/' property='og:url'>
+  <meta content='Reprograma - Vamos reprogramar o mundo' property='og:title'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="todas-tech/assets/img/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="https://www.reprograma.com.br/assets/img/favicon.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="todas-tech/assets/css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WMWGJCB');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMWGJCB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <main class="wrapper">
+    <nav>
+      <div class="hamburguer">
+        <a href="./index.html">
+          <img src="/my-app/public/logo192.png" alt=" " width="20%" height="20%">
+        </a>
+        <a class="link-subscription" target="_blank" href="https://app.reprograma.com.br/course-login">INSCREVA-SE</a>
+      </div>
+    </nav>
+
+    <header>
+      <div>
+        <div class="header-text">
+          <h1><span>Todas em Tech</span><br> inspiração, apoio e capacitação de mulheres para diminuir a
+            lacuna de gênero
+            no setor de tecnologia.</h1>
+          <a href="#" onclick="toggle()">ver vídeo</a>
+
+          <img src="./public/logo192.png" alt="ícone de play" width="3%" height="10%">
+        </div>
+        <div class="modal-video">
+          <div>
+            <div class="close" onclick="toggle(); stop()">
+              <div class="close--left"></div>
+              <div class="close--right"></div>
+            </div>
+            <iframe id="video" width="90%" height="100%" src="https://www.youtube.com/embed/2rXNHqtwZYQ" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <script type="text/javascript">
+          function toggle() {
+            var modalVideo = document.querySelector(".modal-video");
+            modalVideo.classList.toggle("active");
+
+            var video = document.getElementById("video");
+            video.setAttribute("src", "https://www.youtube.com/embed/2rXNHqtwZYQ");
+          }
+          function stop() {
+            var video = document.getElementById("video");
+            video.setAttribute("src", "");
+          }
+        </script>
+      </div>
+    </header>
+
+    <section>
+      <div class="intro">
+        <div class="project">
+          <p>
+            O Todas em Tech é uma iniciativa da {reprograma} e do BID Lab (Laboratório de Inovação do Grupo Banco
+            Interamericano de Desenvolvimento), desenvolvida para mulheres que querem usar a tecnologia para mudar vidas
+            e criar um impacto positivo no mundo. O objetivo do projeto é ensinar programação e dar a oportunidade de um
+            futuro melhor por meio da tecnologia para mulheres em situações de vulnerabilidade social, econômica e de
+            gênero, com foco em negras e/ou trans e travestis.</p>
+          <br>
+          <p>
+            Além da capacitação em programação front-end e back-end, o Todas em Tech auxilia no aprimoramento de
+            competências comportamentais (soft skills) e no desenvolvimento de portfólio das alunas, para conectá-las ao
+            mercado de trabalho. Inclusive, para promover ainda mais essa conexão, as alunas têm acesso a plataforma de
+            contratação da {reprograma} que conecta empregadoras e programadoras.
+          </p>
+          <br>
+          <p>
+            O projeto destina no mínimo 55% das vagas para mulheres negras e 5% para mulheres trans e travestis, e conta
+            com o apoio das empresas: Accenture, Creditas, iFood, Meta e Nubank.
+
+            Neste primeiro semestre de 2022 teremos 3 novas turmas do Todas em Tech: 2 de back-end e 1 de front-end.
+            Cada turma será composta por 40 alunas.
+          </p>
+          <br>
+          <a class="link-reprograma" href="../index.html"><span> conheça a {re</span>programa<span>}</span> </a>
+        </div>
+        <div class="intro-art">
+
+          <div class="impact">
+            <div>
+              <img src="./public/logo192.png" alt=" " width="60%"height="60%">
+              <div class="impact-text">
+                <h2>Impacto</h2>
+              </div>
+              <h3>Mulheres brasileiras</h3>
+              <p>
+                O Todas em Tech impactará 2.400 mulheres com suas oficinas e formará 400 mulheres desenvolvedoras,
+                priorizando a seleção de mulheres negras e/ou trans e travestis, até dezembro de 2022.
+              </p>
+            </div>
+          </div>
+
+          <div class="duration">
+            <div>
+              <img src="./public/logo192.png" alt="" width="60%"height="60%">
+              <div class="duration-text">
+                <h2>Duração</h2>
+              </div>
+              <h3>18 semanas</h3>
+              <p>Os cursos (<i>bootcamps</i>) online têm duração de 18 semanas. Já as oficinas online acontecerão em um
+                único dia, com foco em conteúdos introdutórios da linguagem de programação JavaScript. Em 2021,
+                realizamos 04 turmas do projeto e até dezembro de 2022 realizaremos outras 06, totalizando 10 turmas.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="alumni">
+        <h2>Veja<br>Melhorar o mercado de TI e sociedade!</h2>
+        <div class="carousel">
+          <!-- depoimento 0 -->
+          <div class="carousel__item carousel__item--visible" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt=" smiling" width="3%" height="10%">
+            </div>
+            <div class="slide-text">
+              <p>“O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres."
+              </p>
+
+              <h4>Vamos nessa!</h4>
+            </div>
+          </div>
+          <!-- depoimento 1 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt="smiling" height="20%" width="20%">
+            </div>
+            <div class="slide-text">
+              <p>"O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres." </p>
+              <p>Atuar na área tem sido uma experiência ímpar. Trabalho em um lugar onde existe um constante incentivo
+                ao aprendizado, uso muito do que aprendi durante o Todas em Tech e isso faz muita diferença”.</p>
+              <h4>Karlla Nascimento, ex-aluna</h4>
+            </div>
+          </div>
+          <!-- depoimento 2 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt="smile" width="20%" height="20%">
+            </div>
+            <div class="slide-text">
+              <p>
+                “O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres”. </p>
+
+              <h4>Ana, ex-aluna</h4>
+            </div>
+          </div>
+          <!-- depoimento 3 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt=" smile" width="30%" height="30%">
+            </div>
+            <div class="slide-text">
+              <p>"A {reprograma} foi um divisor de águas na minha vida. Posso dizer que existe a Agnes “pré-reprograma”
+                e a “pós-reprograma”. Para além de código, lá eu aprendi sobre sororidade, igualdade e trabalho em
+                equipe. Sem dúvidas foi uma experiência muito poderosa, uma das mais incríveis da minha vida. Hoje
+                trabalho em uma das melhores empresas de tecnologia no Brasil graças a tudo que aprendi na
+                {reprograma}!"</p>
+              <h4>Ana, ex-aluna</h4>
+            </div>
+          </div>
+          <!-- depoimento 4 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt="smiling" height="20%" width="20%">
+            </div>
+            <div class="slide-text">
+              <p>O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.</p>
+              <p>“O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.”
+              </p>
+              <p>“O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.”
+              </p>
+              <h4>Um Bandeira</h4>
+            </div>
+          </div>
+          <!-- depoimento 5 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt=" sorrindo" width="3%" height="10%">
+            </div>
+            <div class="slide-text">
+              <p>Cresci acreditando na competição entre as mulheres e, durante a minha participação no
+                projeto, foi um período de desconstrução dessa visão estereotipada por mim e por parte da sociedade. Na
+                {reprograma}, além de conhecimentos técnicos de programação, eu aprendi sobre sororidade, empatia,
+                enfim, aprendi que a união faz a força.</p>
+              <h4>Ana, ex-aluna</h4>
+            </div>
+          </div>
+          <!-- depoimento 6 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt="sorrindo" width="3%" height="10%">
+            </div>
+            <div class="slide-text">
+              <p>Conhecer a linguagem da programação não foi fácil, mas bastante satisfatório. A nossa
+                turma era bastante unida e todas as alunas se ajudavam bastante. Consegui superar todos os desafios,
+                estou empregada, fazendo o que gosto e seguindo aprendendo. Posso afirmar que hoje estou realizada.
+              </p>
+              <h4> Ana, ex-aluna</h4>
+            </div>
+          </div>
+          <!-- depoimento 7 -->
+          <div class="carousel__item" data-js="carousel__item">
+            <div class="slide-img">
+              <img src="./public/logo192.png" alt="sorrindo" width="3%" height="10%">
+            </div>
+            <div class="slide-text">
+              <p>“O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.”
+              </p>
+              <h4>Ana Carolina, ex-aluna.</h4>
+            </div>
+          </div>
+          <div class="carousel__actions">
+            <button data-js="carousel__button--prev" aria-label="Slide anterior" class="button-arrow arrow arrow-prev">
+            </button>
+
+            <button data-js="carousel__button--next" aria-label="Próximo slide" class="button-arrow arrow arrow-next">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="testimonials">
+        <h2>depoimentos <br> de parceiros</h2>
+        <div class="carousel-wrapper-business">
+          <span id="item-01"></span>
+          <span id="item-02"></span>
+          <span id="item-03"></span>
+          <span id="item-04"></span>
+          <span id="item-05"></span>
+          <span id="item-06"></span>
+          <span id="item-07"></span>
+          <div class="carousel-item-business item-01">
+            <div class="slide-img-business">
+              <p aria-modal="true" >ana.couto14091993@gmail.com</p>
+            </div>
+            <div class="slide-text-business">
+              <p class="testimonial-text">“O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres”.
+              </p>
+              <br><br>
+              <h4><b>See More</b> Educação boa para América Latina</h4>
+              
+            </div>
+            <a class="arrow-black arrow-prev-business" href="#item-07"></a>
+            <a class="arrow-black arrow-next-business" href="#item-02"></a>
+            <div></div>
+          </div>
+          <div class="carousel-item-business item-02">
+            <div class="slide-img-business">
+              <img src="todas-tech/assets/img/logo-bidlab.png" alt="logo da empresa BID Lab">
+            </div>
+            <div class="slide-text-business">
+              <p class="creditas">“O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.”<br><br>
+
+                O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.”
+
+              </p>
+              <br><br>
+              <h4><b>Ana Carolina Ribeiro da Silva Couto</b>, Lead Specialist do Bid Lab</h4>
+            </div>
+            <a class="arrow-black arrow-prev-business" href="#item-01"></a>
+            <a class="arrow-black arrow-next-business" href="#item-03"></a>
+          </div>
+          <div class="carousel-item-business item-03">
+            <div class="slide-img-business">
+              <img src="todas-tech/assets/img/logo-creditas.png" alt="logo da empresa Creditas">
+            </div>
+            <div class="slide-text-business">
+              <p class="creditas">“O que eu sei é uma gota, o que eu ignoro é um oceano”
+                “O BID Lab está muito orgulhoso do programa de codificação Todas em Tech da {reprograma}, que visa
+                capacitar mulheres negras e/ou trans e travestis. Temos certeza que estamos na direção certa, e queremos
+                vê-lo crescer para que ele atinja muito mais mulheres.”
+              </p>
+              <br><br>
+              <h4><b>Vamos ness!</b>, COO da Creditas</h4>
+            </div>
+            <a class="arrow-black arrow-prev-business" href="#item-02"></a>
+            <a class="arrow-black arrow-next-business" href="#item-04"></a>
+          </div>
+          <div class="carousel-item-business item-04">
+            <div class="slide-img-business">
+              <img src="todas-tech/assets/img/logo-ifood.png" alt="logo da empresa iFood">
+            </div>
+            <div class="slide-text-business">
+              <p class="testimonial-text">“A co-construção do projeto com todos os parceiros vai potencializar ainda
+               esenvolvida também é uma parte essencial para que elas consigam visibilidade e
+                oportunidades de vagas mais rapidamente. No iFood, sabemos que, quanto mais diverso nosso time, mais
+                conseguiremos entender 
+                que é a sociedade brasileira e o que ela tem de melhor. Esperamos que nossa parceria, assim como demais
+                ações promovidas pela empresa, incentivem
+                outras companhias a fazer o mesmo, abrindo portas e possibilidades para mulheres em situações de
+                vulnerabilidade, criando uma corrente do bem e um mundo mais inclusivo”.
+              </p>
+              <br><br>
+              <h4><b>Gustavo Vitti</b>, Chief People Officer do iFood</h4>
+            </div>
+            <a class="arrow-black arrow-prev-business" href="#item-03"></a>
+            <a class="arrow-black arrow-next-business" href="#item-05"></a>
+          </div>
+          <div class="carousel-item-business item-05">
+            <div class="slide-img-business">
+              <img src="todas-tech/assets/img/logo-meta.png" alt="logo da empresa meta">
+            </div>
+            <div class="slide-text-business">
+              <p class="creditas">A tecnologia oferece infinitas possibilidades e oportunidades para aqueles com os
+                conhecimentos necessários. Na Meta, temos um compromisso global com a diversidade, a inclusão digital e
+                o empoderamento econômico como forma de reduzir desigualdades. Trabalhamos para que todos possam se
+                expressar, exercer plenamente seu potencial e, assim, não deixar ninguém para trás.
+
+                <br><br>
+                Concordo em ter um apoio finceiro para realização de estudos na área de programação e
+                desenvolvimento Web de Sites XDXD
+
+        
+                <br><br>
+
+               Essa transformação contínua, que beneficia toda a sociedade, reforça a importância do
+                Todas em Tech e o nosso orgulho em apoiá-lo.
+
+
+              </p>
+              <br><br>
+              <h4><b>Carolina Ferracini</b>, Policy Campaigns and Programs Manager da Meta</h4>
+            </div>
+            <a class="arrow-black arrow-prev-business" href="#item-04"></a>
+            <a class="arrow-black arrow-next-business" href="#item-06"></a>
+          </div>
+
+          <div class="carousel-item-business item-06">
+            <div class="slide-img-business">
+              <img src="todas-tech/assets/img/nu_logo_cinza.png" alt="logo da empresa Nubank">
+            </div>
+            <div class="slide-text-business">
+              <p class="creditas">“O objetivo do Nubank em apoiar o projeto é formar mulheres desenvolvedoras (back-end
+                e
+                front-end) para que ao final do curso elas possam ser contratadas e, principalmente, tornar o ambiente
+                de tecnologia cada vez mais diverso e inclusivo.
+                A diversidade sempre foi um dos pilares do Nubank e encontramos no projeto uma oportunidade de
+                contribuir e avançar ainda mais nesta agenda. Tecnologia é um dos principais pilares para o futuro e
+                parte fundamental do nosso trabalho. Participar deste projeto com o BID Lab e outras empresas é muito
+                enriquecedor. Por meio do projeto Todas em Tech promovemos uma valiosa troca de experiências entre
+                mulheres do setor.
+                <br><br>
+
+                O Nubank tem o objetivo de construir equipes cada vez mais diversas e inclusivas. Por isso, trabalhamos
+                em eventos e projetos de recrutamento que buscam aumentar e apoiar a participação de mulheres na área de
+                Engenharia de Software. Queremos inspirar, empoderar e ensinar mulheres, por meio de conhecimentos de
+                computação e ferramentas de capacitação profissional.”
+
+              </p>
+              <br><br>
+              <h4><b>Liciane Andreatta, </b>, Diretora de Engenharia do Nubank</h4>
+            </div>
+            <a class="arrow-black arrow-prev-business" href="#item-06"></a>
+            <a class="arrow-black arrow-next-business" href="#item-01"></a>
+          </div>
+        </div>
+    </section>
+    <section>
+      <div class="formatura">
+        <h2> confira a formatura <br> Realizada!</h2>
+        <div class="video-formatura">
+          <iframe src="https://www.youtube.com/embed/BRDYfaF5z18" title="YouTube video player" frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="community">
+        <div class="students-info">
+          <h2>Quer ser nossa aluna?<br>
+            <span>inscreva-se em nossos cursos!</span>
+          </h2>
+          <a href="https://www.reprograma.com.br/#courses">VER CURSOS</a>
+        </div>
+        <div class="community-info">
+          <h2>
+            Você faz parte de uma comunidade?<br>
+            <span>seja nossa parceira!</span>
+          </h2>
+          <a href="mailto:info@reprograma.com.br?Subject=Olá!" target="_blank">ENTRE EM CONTATO</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="partners">
+        <img src="todas-tech/assets/img/logo-bidlab.png" alt="logo da empresa BID LAB">
+        <img src="todas-tech/assets/img/logo-creditas.png" alt="logo da empresa Creditas">
+        <img src="todas-tech/assets/img/logo-estacaohack.png" alt="logo da empresa Estação Hack">
+        <img src="todas-tech/assets/img/logo-accenture.png" alt="logo da empresa Accenture">
+        <img src="todas-tech/assets/img/logo-ifood.png" alt="logo da empresa iFood">
+        <img src="todas-tech/assets/img/nu_logo_cinza.png" alt="logo da empresa Nubank">
+        <img src="todas-tech/assets/img/logo-meta.png" alt="logo da empresa Meta">
+      </div>
+      <div class="gray-stripe"></div>
+    </section>
+
+    <footer>
+      <div>
+        <h3>The future is female <span class="underline--footer">coders.</span></h3>
+      </div>
+      <div class="social">
+        <div class="icons">
+          <a href="https://instagram.com/reprogramaBR" target="_blank"><i class="fab fa-instagram"
+              aria-hidden="true"></i></a>
+
+          <a href="https://facebook.com/ReprogramaBr" target="_blank"><i class="fab fa-facebook-square"
+              aria-hidden="true"></i></a>
+
+          <a href="https://twitter.com/ReprogramaBr" target="_blank"><i class="fab fa-twitter-square"></i></a>
+
+          <a href="https://www.linkedin.com/company/reprogramabr" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+          <a href="mailto:info@reprograma.com.br?Subject=Olá!" target="_top"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>Remoto</br>
+          São Paulo - SP, Brasil</p>
+        <img alt="logo " src="./public/logo192.png" width="20%" height="30%">
+      </div>
+      <div class="paypal-container">
+        <p>Faça uma doação via paypal e apoie a iniciativa! </p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class='btn btn-md'>
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="NSZZUNGJ8A296">
+          <input type="image" src="assets/img/btn-paypal.png" border="0" name="submit"
+            alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+        </form>
+      </div>
+    </footer>
+    <div class="stp-black"></div>
+    <div class="stp-white"></div>
+    <div class="stp-blue"></div>
+    <div class="stp-pink"></div>
+    <div class="stp-white"></div>
+
+    </footer>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="todas-tech/assets/js/carousel.js"></script>
+ <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+<script>
+  var ht = new HT({
+    token: "19c3805781ad66f82d46c8d73f728f28", avatar: "MAYA", pageSpeech: true
+  });
+</script>
+</body>
+
+</html>
